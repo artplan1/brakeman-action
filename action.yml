@@ -4,7 +4,7 @@ description: GitHub Action to run Brakeman static analysis which checks Ruby on 
 
 inputs:
   flags:
-    description: Flags (list of available flags: https://github.com/presidentbeef/brakeman#basic-options)
+    description: "Flags (list of available flags: https://github.com/presidentbeef/brakeman#basic-options)"
 
 runs:
   using: docker
