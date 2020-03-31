@@ -3,11 +3,11 @@ author: Artem Kozaev
 description: GitHub Action to run Brakeman static analysis which checks Ruby on Rails applications for security vulnerabilities.
 
 inputs:
-  color:
-    description: Colorize output
+  flags:
+    description: Flags (list of available flags: https://github.com/presidentbeef/brakeman#basic-options)
 
 runs:
   using: docker
   image: docker://presidentbeef/brakeman
   args:
-    - ${{ inputs.color }}
+    - ${{ inputs.flags }}

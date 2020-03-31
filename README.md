@@ -2,20 +2,16 @@
 
 This action run brakeman static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
 
-<!-- ## Inputs
+## Inputs
 
-### `who-to-greet`
+### `flags`
 
-**Required** The name of the person to greet. Default `"World"`.
+Brakeman options. Full list of options: <https://github.com/presidentbeef/brakeman#basic-options>
 
-## Outputs
+## Example usage
 
-### `time`
-
-The time we greeted you. -->
-
-<!-- ## Example usage
-
-uses: actions/hello-world-docker-action@v1
+```yaml
+uses: artplan1/brakeman-action@v1
 with:
-who-to-greet: 'Mona the Octocat' -->
+  flags: "--color"
+```
