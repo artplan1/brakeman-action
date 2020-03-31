@@ -11,3 +11,7 @@ runs:
   image: docker://presidentbeef/brakeman
   args:
     - ${{ inputs.flags }}
+
+branding:
+  icon: alert-octagon
+  color: black
