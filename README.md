@@ -11,7 +11,11 @@ Brakeman options. Full list of options: <https://github.com/presidentbeef/brakem
 ## Example usage
 
 ```yaml
-uses: artplan1/brakeman-action@v1
+uses: artplan1/brakeman-action@v1.2.1
 with:
   flags: "--color"
 ```
+
+## Screenshot
+
+![Screenshot](.github/gh-action-output.png)
